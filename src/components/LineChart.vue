@@ -1,9 +1,10 @@
 <script>
-import { Line } from 'vue-chartjs'
+import Line from 'vue-chartjs'
 
 export default {
+    name: 'LineChart',
     extends: Line,
-    data () {
+    data: function() {
         return {
             data: {
                 labels: ['1', '2', '3', '4'],
@@ -19,7 +20,7 @@ export default {
             }
         }
     },
-    mounted () {
+    mounted: function() {
         console.log("hoge")
         this.renderChart(this.data, this.options)
     }
