@@ -1,15 +1,23 @@
 <template>
     <div id="app">
-        hoge
-        <line-chart/>
+        <line-chart
+            :data='data'
+            :title='title'
+        />
     </div>
 </template>
 
 <script>
-import { LineChart } from './LineChart'
+import LineChart from './LineChart'
 
 export default {
-    components: { LineChart }
+    components: { LineChart },
+    data () {
+        return {
+            data: [100, 90, 60, 70],
+            title: 'line-chart'
+        }
+    }
 }
 </script>
 

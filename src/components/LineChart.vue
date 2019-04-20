@@ -1,32 +1,33 @@
 <script>
-import Line from 'vue-chartjs'
+import { Line } from 'vue-chartjs'
 
 export default {
     name: 'LineChart',
     extends: Line,
-    data: function() {
+    props: ['data', 'title'],
+    data () {
         return {
-            data: {
+            chartData: {
                 labels: ['1', '2', '3', '4'],
                 datasets: [{
                     label: 'sample',
                     backgroundColor: '#0000ff',
-                    data: [100, 90, 60, 70]
+                    data: []
                 }]
             },
             options: {
-                responsive: false,
-                maintainAspectRatio: false
+                title: {
+                    display: true,
+                    text: ''
+                }
             }
         }
     },
     mounted: function() {
-        console.log("hoge")
-        this.renderChart(this.data, this.options)
+        this.chartData.datasets[0].data = this.data
+        this.options.title.text = this.title
+        this.renderChart(this.chartData, this.options)
     }
 }
 
 </script>
-
-<style>
-</style>
