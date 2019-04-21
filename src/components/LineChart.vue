@@ -19,6 +19,9 @@ export default {
                 title: {
                     display: true,
                     text: ''
+                },
+                legend: {
+                    display: false
                 }
             }
         }
