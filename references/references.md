@@ -1,5 +1,11 @@
-- [Vue.js を vue-cli を使ってシンプルにはじめてみる - Qiita](https://qiita.com/567000/items/dde495d6a8ad1c25fa43)
-- [Overview | Vue CLI](https://cli.vuejs.org/guide/#cli-service)
-- [Getting Started | 📈 vue-chartjs](https://vue-chartjs.org/guide/#troubleshooting)
-- 
-- [vue-chartjs馴れ初め - Qiita](https://qiita.com/muramasawani/items/6086ecfcb92034774599)
+- vue CLI
+  - [Vue.js を vue-cli を使ってシンプルにはじめてみる - Qiita](https://qiita.com/567000/items/dde495d6a8ad1c25fa43)
+  - [Overview | Vue CLI](https://cli.vuejs.org/guide/#cli-service)
+- vue-chartjs
+  - [Getting Started | 📈 vue-chartjs](https://vue-chartjs.org/guide/#troubleshooting)
+  - [vue-chartjs/src/examples at develop · apertureless/vue-chartjs](https://github.com/apertureless/vue-chartjs/tree/develop/src/examples)
+  - [vue-chartjs馴れ初め - Qiita](https://qiita.com/muramasawani/items/6086ecfcb92034774599)
+  - [Chart.js 2.0でy軸の最大値(scales max)と最小値を設定する – joppot](https://joppot.info/2016/05/08/3170)
+
+- javascript
+  - [連番の数字の配列を作成（es2015 ver) - Qiita](https://qiita.com/sakymark/items/710f0b9a632c375fbc31)
