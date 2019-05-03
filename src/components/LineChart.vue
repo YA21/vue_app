@@ -4,31 +4,29 @@ import { Line } from 'vue-chartjs'
 export default {
     name: 'LineChart',
     extends: Line,
-    props: ['data', 'title'],
-    data () {
+    data() {
         return {
             chartData: {
-                labels: ['1', '2', '3', '4'],
+                labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
                 datasets: [{
                     label: 'sample',
-                    backgroundColor: '#0000ff',
-                    data: []
+                    borderColor: '#0000ff',
+                    data: [100, 90, 60, 70, 50, 30, 40, 50, 60, 100],
+                    fill: false
                 }]
             },
             options: {
                 title: {
                     display: true,
-                    text: ''
+                    text: 'Line chart'
                 },
                 legend: {
                     display: false
-                }
+                },
             }
         }
     },
     mounted: function() {
-        this.chartData.datasets[0].data = this.data
-        this.options.title.text = this.title
         this.renderChart(this.chartData, this.options)
     }
 }

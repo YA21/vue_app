@@ -1,33 +1,30 @@
 <template>
-    <div id="app">
-        <line-chart
-            :data='data'
-            :title='title'
+    <div style='display:flex;'>
+        <line-chart 
+            class=chart
+        />
+        <bar-chart
+            class=chart
+        />
+        <pie-chart
+            class=chart
         />
     </div>
 </template>
 
 <script>
 import LineChart from './LineChart'
+import BarChart from './BarChart'
+import PieChart from './PieChart'
 
 export default {
-    components: { LineChart },
-    data () {
-        return {
-            data: [100, 90, 60, 70],
-            title: 'line-chart'
-        }
-    }
+    components: { LineChart, BarChart, PieChart },
 }
 </script>
 
 <style>
-#app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
+.chart {
+    width: 500px;
+    height: 500px;
 }
 </style>
