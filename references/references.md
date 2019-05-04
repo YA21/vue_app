@@ -4,8 +4,11 @@
 - vue-chartjs
   - [Getting Started | 📈 vue-chartjs](https://vue-chartjs.org/guide/#troubleshooting)
   - [vue-chartjs/src/examples at develop · apertureless/vue-chartjs](https://github.com/apertureless/vue-chartjs/tree/develop/src/examples)
+  - [Line · Chart.js documentation](https://www.chartjs.org/docs/latest/charts/line.html)
+  - [Bar · Chart.js documentation](https://www.chartjs.org/docs/latest/charts/bar.html)
   - [vue-chartjs馴れ初め - Qiita](https://qiita.com/muramasawani/items/6086ecfcb92034774599)
   - [Chart.js 2.0でy軸の最大値(scales max)と最小値を設定する – joppot](https://joppot.info/2016/05/08/3170)
 
 - javascript
   - [連番の数字の配列を作成（es2015 ver) - Qiita](https://qiita.com/sakymark/items/710f0b9a632c375fbc31)
+  - [ES6の import / export - Qiita](https://qiita.com/kiyodori/items/01d07d5c0659e539ecb9)
